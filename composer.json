@@ -1,0 +1,26 @@
+{
+  "name": "kat/transport-proto",
+  "type": "library",
+  "description": "A transport proto library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Khalid ATLASSI",
+      "email": "khalid.atlassi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kat\\TransportProto\\": "src/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.4.0"
+    }
+  }
+}
